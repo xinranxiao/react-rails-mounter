@@ -1,0 +1,30 @@
+{
+  "name": "react-rails-mounter",
+  "version": "1.0.0",
+  "description": "Mounting react components in Rails off of the asset pipeline",
+  "keywords": [
+    "react",
+    "mounting",
+    "react-rails",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinranxiao/react-rails-mounter"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "author": "Xinran Xiao <xinranxiao@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6",
+    "babel-preset-es2015": "^6"
+  }
+}
