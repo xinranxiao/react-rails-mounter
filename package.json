@@ -1,6 +1,6 @@
 {
   "name": "react-rails-mounter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mounting react components in Rails off of the asset pipeline",
   "keywords": [
     "react",
